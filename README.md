@@ -1,7 +1,7 @@
 # wise3Dstereoscopic
 Stereoscopic view of the clustering of astronomical objects in WISE 3D color space
 
-**Author:** Robert Nikutta <robert.nikutta@gmail.com>
+**Author:** Robert Nikutta
 
 **Title:** Clustering of astronomical objects in WISE 3D color space
 
@@ -12,6 +12,8 @@ Stereoscopic view of the clustering of astronomical objects in WISE 3D color spa
 [Paper at MNRAS](http://dx.doi.org/10.1093/mnras/stu1087)
 
 [Paper on ADS](http://adsabs.harvard.edu/abs/2014MNRAS.442.3361N)
+
+![Video on vimeo](https://vimeo.com/124757575)
 
 ## Synopsis
 
