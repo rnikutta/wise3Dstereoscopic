@@ -5,10 +5,12 @@ Stereoscopic view of the clustering of astronomical objects in WISE 3D color spa
 
 **Title:** Clustering of astronomical objects in WISE 3D color space
 
-**Based on:** Nikutta, Hunt-Walker, Ivezic, Nenkova, Elitzur
-*'The meaning of WISE colours - I. The Galaxy and its satellites'*
-*MNRAS 442, 3361-3379 (2014)*
+**Based on:** Nikutta, Hunt-Walker, Ivezic, Nenkova, Elitzur, *'The
+  meaning of WISE colours - I. The Galaxy and its satellites', MNRAS
+  442, 3361-3379 (2014)*
+
 [Paper at MNRAS](http://dx.doi.org/10.1093/mnras/stu1087)
+
 [Paper on ADS](http://adsabs.harvard.edu/abs/2014MNRAS.442.3361N)
 
 This stereoscopic plot (cross your eyes!) shows the distribution of
