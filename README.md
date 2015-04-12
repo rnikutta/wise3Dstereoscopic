@@ -13,7 +13,8 @@ Stereoscopic view of the clustering of astronomical objects in WISE 3D color spa
 
 [Paper on ADS](http://adsabs.harvard.edu/abs/2014MNRAS.442.3361N)
 
-![Video on vimeo](https://vimeo.com/124757575)
+[Video on vimeo](https://vimeo.com/124757575)
+![Video on vimeo](./3D_color_stereoscopic_az-018.00_small.png)
 
 ## Synopsis
 
