@@ -31,6 +31,13 @@ small black dots show other astronomical objects in our Galaxy and its
 satellites which have not been associated with the other
 clusters. They are typically a mix of everything.
 
+Example:
+-------
+
+import plot
+F = plot.Figure(nxpix=1920) # full HD
+F.make_stereoscopic_3d_scatter() # generates PNG file with default settings
+
 """
 
 __author__ = 'Robert Nikutta <robert.nikutta@gmail.com>'
@@ -43,7 +50,7 @@ from matplotlib.gridspec import GridSpec
 from mpl_toolkits.mplot3d import Axes3D
 
 
-class FigurePlumes:
+class Figure:
 
     def __init__(self,nxpix=1280):
 
@@ -96,7 +103,7 @@ class FigurePlumes:
 
         assert (saveformat in ('png','pdf')), "saveformat must be 'png' (recommended) or 'pdf' (will be very slow to save)."
 
-        filename = '3D_color_stereoscopic_az%07.2f.png' % azimuth
+        filename = '3D_color_stereoscopic_az%07.2f.%s' % (azimuth,saveformat)
         print "Generating plot %s" % filename
 
         self.setup_figure(figsize=(self.ux,self.uy))   # width, height
@@ -185,7 +192,7 @@ def plot_scatter_3D(fig,ax,sid,x,y,z,unit,azimuth=-25):
     groups = [coO,coC,coCDSYSOcool,coCDSYSOwarm,coOTHER]
 
     # plot side panes
-    marker = ','
+    marker = 'o'
     colors = ('r','#1A7EFF','g','#FFC81A','0.2') # red, blue, green, orange, very dark gray
     alphas = [0.3]*len(groups)
     sizes = [s,s,s,s,s/3.]  # make 'other' apear a bit less prominent

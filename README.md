@@ -14,7 +14,9 @@ Stereoscopic view of the clustering of astronomical objects in WISE 3D color spa
 [Paper on ADS](http://adsabs.harvard.edu/abs/2014MNRAS.442.3361N)
 
 [Video on vimeo](https://vimeo.com/124757575)
-![Video on vimeo](./3D_color_stereoscopic_az-018.00_small.png)
+![Video on vimeo](./plot_small.png)
+
+**License:** BSD 3-clause
 
 ## Synopsis
 
@@ -46,7 +48,7 @@ clusters. They are typically a mix of everything.
 
 ```!python
 In[0]: import plot
-In[1]: F = plot.FigurePlumes()
+In[1]: F = plot.Figure()
 In[2]: F.make_stereoscopic_3d_scatter()  # The output is saved to a PNG file by default.
 ```
 
@@ -54,7 +56,7 @@ In[2]: F.make_stereoscopic_3d_scatter()  # The output is saved to a PNG file by 
 
 ```!python
 In[0]: import plot
-In[1]: F = plot.FigurePlumes(nxpix=1920)  # full HD
+In[1]: F = plot.Figure(nxpix=1920)  # full HD
 In[1]: F.make_movie_frames(-1,-361,-1)    # 360 frames separated by 1 deg in azimuth, rotating anticlockwise
 ```
 
