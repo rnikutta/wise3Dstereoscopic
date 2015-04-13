@@ -175,7 +175,6 @@ class Figure:
         self.gs3D.update(left=0.02,right=0.98,bottom=0.,top=1.,wspace=0.05,hspace=0.)
 
 
-
 def plot_scatter_3D(fig,ax,sid,x,y,z,unit,azimuth=-25):
 
     # some constants
